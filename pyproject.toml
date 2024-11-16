@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "nlp-political-parties"
+version = "0.1.0"
+description = ""
+authors = ["dzmitry ashkinadze <dzmitry.ashkinadze@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipykernel = "^6.29.5"
+python-dotenv = "^1.0.1"
+langchain-text-splitters = "^0.3.2"
+tiktoken = "^0.8.0"
+pandas = "^2.2.3"
+openai = "^1.54.3"
+scikit-learn = "^1.5.2"
+matplotlib = "^3.9.2"
+deep-translator = "^1.11.4"
+transformers = "^4.46.2"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

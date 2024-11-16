@@ -1,0 +1,7 @@
+.env
+.venv/
+data/pdf/*
+data/txt/*
+data/*.csv
+*.bkp
+.DS_Store
